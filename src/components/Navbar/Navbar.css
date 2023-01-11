@@ -1,0 +1,27 @@
+.navbar {
+    background-color: white;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+}
+.search {
+    width: 30%;
+    border: none;
+    background-color: #e4dddd;
+    height: 50%;
+    border-radius: 6px;
+    padding-left: 10px;
+    caret-color: red;
+    font-size: 15px;
+}
+.search:focus {
+    outline: none;
+}
+.notpro {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 0.2;
+}

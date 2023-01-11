@@ -1,0 +1,41 @@
+.sidebar {
+    height: 135vh;
+    padding: 15px;
+    background-color: white;
+    flex: 0.2;
+    
+}
+.sidebarList1 {
+    list-style: none;
+    color: #777;
+    height: 60%;
+    font-size: 18px;
+}
+.sidebarList2 {
+    list-style: none;
+    color: #777;
+    height: 10%;
+    font-size: 18px;
+}
+.sidebarList1 div , .sidebarList2 div  {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+.listContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo h1 {
+    margin-left: 15px;
+}
+.icon {
+    margin: 0 15px;
+
+}

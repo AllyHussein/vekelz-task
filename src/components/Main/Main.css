@@ -1,0 +1,39 @@
+.main {
+    padding: 20px;
+}
+
+.select {
+    border-radius: 15px;
+    height: 30px;
+    width: 100px;
+    padding-left: 10px;
+    margin-right: 10px;
+    border: none;
+}
+.select:focus {
+    outline: none;
+}
+select::-ms-expand {
+    display: none;
+}
+.selectContainer {
+    position: relative;
+}
+.selectContainer select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+  }
+
+.selectContainer select::-ms-expand {
+    display: none;
+}
+.parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrow {
+    position: absolute;
+    left: 67px;
+    top: 3px;
+}
